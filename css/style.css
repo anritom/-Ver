@@ -1,5 +1,5 @@
 h1 {
-    background-image: url('/..images/sweet.jpeg'); /* 画像のパスを指定 */
+    background-image: url('../images/sweet.jpeg'); /* 画像のパスを指定 */
     background-size: cover; /* 画像をh1のサイズに合わせてカバー */
     background-position: center; /* 画像を中央に配置 */
     color: hwb(58 5% 62%); /* テキストの色を白に設定 */
@@ -21,7 +21,7 @@ body {
     cursor: pointer;
 }
 .result {
-    background-image: url('/..images/sweet.jpeg'); /* 画像のパスを指定 */
+    background-image: url('../images/sweet.jpeg'); /* 画像のパスを指定 */
     color: hwb(58 4% 47%); /* テキストの色を白に設定 */
     padding: 80px; /* 余白を追加 */
     margin-top: 30px;
